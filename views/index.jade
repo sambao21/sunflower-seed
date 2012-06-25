@@ -1,0 +1,38 @@
+extends layout
+
+block body
+  div(class="navbar navbar-fixed-top")
+    div(class="navbar-inner")
+      div(class="container")
+        a(class="btn btn-navbar", data-toggle="collapse", data-target=".nav-collapse")
+          span(class="icon-bar")
+          span(class="icon-bar")
+          span(class="icon-bar")
+        a(class="brand", href="#") Project name
+        div(class="nav-collapse")
+          ul(class="nav")
+            li(class="active")
+              a(href="#") Home
+            li
+              a(href="#about") About
+            li
+              a(href="#contact") Contact
+  div(class="container")
+    h1 sunflower-seed starter template
+    p
+      |Use this document as a way to quick start any new project. <br />
+      |Below is an example dynamic content provided by AngularJS.
+
+    div(ng-controller='AppCtrl')
+      h2 Hello {{name}}
+      ul.menu
+        li
+          a(href='view1') view1
+        li
+          a(href='view2') view2
+
+      div(ng-view)
+
+      div
+        | Angular seed app: v
+        span(app-version)
