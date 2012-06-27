@@ -10,8 +10,11 @@ A [NodeJS](http://nodejs.org/) web app skeleton that incorporates:
 
 Inspired by the work of Brian Ford's [angular-express-seed](https://github.com/btford/angular-express-seed).
 
+See his [tutorial](http://briantford.com/blog/angular-express.html) to get ideas behind this seed project.
+
 ##Instructions
 
+0. Install NodeJS
 1. Clone
 2. Run `cd sunflower-seed && npm install`
 3. Run `node app.js` and open browser to localhost:3000
